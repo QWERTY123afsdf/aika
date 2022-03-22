@@ -1,0 +1,69 @@
+body{
+    background-color:#d2b48c;
+}
+a{text-decoration: none;}
+/*index.html*/
+.Panel{
+    display: grid;
+    column-gap: 40px;
+    padding: 10px;
+}
+.LeftPanel{
+    background-color: #98fb98;
+    padding-bottom: 500px;
+    padding-top: 20px;
+    margin: 10px solid #76d976;
+    color:#007400;
+    border-radius: 50px;
+}
+.MidPanel{
+    background-color: #ffdab9;
+    padding-bottom: 500px;
+    padding-top: 20px;
+    margin: 10px solid #f1b885;
+    color:#974700;
+    
+    border-radius: 50px;
+}
+.RightPanel{
+    background-color: #d87093;
+    padding-bottom: 500px;
+    padding-top: 20px;
+    margin: 10px solid #d4547f;
+    color:#6d0024;
+    border-radius: 50px;
+}
+
+@media (min-width: 600px) {
+    .Panel{grid-template-columns: repeat(2, 1fr);}
+}
+@media (min-width: 900px) {
+    .Panel{grid-template-columns: repeat(3, 1fr);}
+}
+
+/*loginpage.html*/
+.loginpanel{
+    background-color: #ffffff93;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 50px;
+}
+.loginbanner{
+    margin: 1%;
+    margin-top: 5%;
+}
+#logintab{
+    background-color: #ffcb86;
+}
+#signuptab{
+    background-color: #e0a85f;
+}
+.tab{
+    border: none;
+    color: #72450b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: in-line-block;
+    font-size: 16px;
+}
